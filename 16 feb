@@ -1,0 +1,27 @@
+16/02/24
+
+
+find the include file:
+
+file->drivers->CMSIS->device->ST->STM32F4->include->STM32F4,h
+
+1.structure:
+type of struct
+{
+int a;
+int b:
+}c;
+c varname;
+
+
+2.typedef struct
+{
+}GPIO type def;
+GPIO- typedef varname;
+
+
+=>#define GPIOA((GPIO type def*)GPIOA-BASE)
+
+
+used to choose the AHBIENR
+       using structure, when we define the address, using structure members the continous register is changed as the address(Z)GPIOA((GPIO type def*)GPIOA-BASE)
