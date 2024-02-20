@@ -1,0 +1,14 @@
+15/02/2024
+
+AHB1bus- the starting address is A.
+GPIO A ,GPIO B - have 7 register.
+
+1.all register have to give the address
+2.the base address of the registers
+3.offset of the  register
+
+=>1 address have a 8 byts(byts addresable)
+
+the number are convert, when the pointer(type cast) to unsigned integer known as address.
+
+the value in an address is represented in(*) .
