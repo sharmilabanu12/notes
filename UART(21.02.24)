@@ -1,0 +1,39 @@
+(21/02/24)
+
+serial communication - 8 bit data is transferred the same time.
+serial communication – 8 bit data is transferred one bit at time.
+
+
+
+Serial data communucation uses two method:
+  =>synchronous : 
+                        clock is transmitted with the data
+  =>asynchronous :
+                          no clock is transmitted, transmitter and receiver  agree  an the clock speed for the data transmission (baudrate)
+
+
+UART –  universal asynchronous  receiver/transmitter
+USART –  universal asynchronous  receiver/transmitter
+
+
+Duplex: data can be transmitted and received
+Simplex: data can be transmitted only or received {one direction only)
+half duplex: data can be transmitted in only on way at a time
+full duplex: data can be transmitted in both ways at a time
+
+
+in  asynchronous transmission, each byte( character)  is packed between start and stop bit
+
+=> start bit is always 1 bit the value of the start bit is always 0
+=> stop bit  can be 1 or 2 bits, the value of the stop bit is always 1
+
+
+
+ transmitting ASCII’A’- 0100  0000
+ ->start bit
+-> stop bit
+
+
+baudrate: connection speed expressed in bits per second.
+stop bit: the stop bit is used to signal the end of a frame. 
+Parity :Parity is a method of detecting errors in transmission.
