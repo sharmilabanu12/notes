@@ -1,0 +1,48 @@
+(22/02/24)
+
+Sudo apt - get install minicom.
+for linux everything is a file or it is process.
+  *) [in linux mouse, Keyboard are file].
+In new tab:
+Ls sapace /
+Ls / dev
+Ls -l / dev
+*)Soc- system on chip
+
+*)SOM - System on module
+
+*)SBC - single board computer
+
+SOC
+ |
+SOM
+ |
+SBC
+
+A5D27 → Name in soc.
+
+Phycore ASD2X -  Name in SOM
+
+rugged board ASD2X - SBC
+
+SOM -> Flash memory ->boot
+
+SD card -> boot
+
+Network → boot
+
+*)Flash memory is like a hardisk.
+
+
+*)BOOt ROM ->it works a load to the SRAM.
+
+*)U - boot -> it will load in • dtb RAM
+
+*).dts - device tree source
+
+*).dtsi — device tree source include
+
+
+*) .dtb → compiles both ots and • dtsi RFS .
+
+*)finally load all and device tree binary only mount the RFS
