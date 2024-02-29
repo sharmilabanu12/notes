@@ -1,0 +1,69 @@
+28/02/24
+
+
+ARM is reduced instruction set computer (RISC) instruction
+set architecture (1SA) developed by ARM Holdings
+
+The story of ARM begins in the 1980s
+Acorn Computers, a British computer manufacturer
+
+They wanted a processor that could deliver
+High performance
+Energy EfficientAn architecture specifies how a processor will
+behave, for example
+what instructions it has and
+what the instructions 
+
+
+ARM Architecture specifies
+1.Instruction set
+2.Register set
+3.Exception model
+4.Memory model
+5.Debug, Trace and Profiling
+
+
+Reduced Instruction Set 1.Computer
+2.Simple Instructions
+3.Simple Addressing Modes
+4.Load Store Architecture
+Big Endian or (more commonly) Litle Endian
+Pipeline length and layou
+Number and sizes of caches
+
+Cycle counts for individual instructions
+Which optional features are implemented
+
+
+Based on this ARM Specification, ARM
+develops IP Cores which implements the
+specification
+IP Core = Implementation in VHDL or Verilog of
+a block of hardware logic.
+
+
+Digits detail hardware characteristics of the processor
+Arm946 processor:
+the '4 indicates a cache and memory protection unit
+the '6' a tightly coupled SRAM interface
+
+The build and design of a processor is referred to as
+micro architecture
+
+
+
+Architecture Reference Manual (ARM)
+
+A application Profile
+R Real time profile
+M-Microcontroller Profile
+
+
+Configuration and Integration Manual (CIM)
+
+Technical Reference Manual (TRM)
+
+
+SOC Datasheet
+The datasheet gives information specific to that SoC
+Memory Map, Peripherals, Pin-out of SoC
